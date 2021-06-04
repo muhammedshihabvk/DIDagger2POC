@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
         MyApplication.getAppComponent().inject(this);
 
         textView =(TextView) findViewById(R.id.textView2);
-        textView.setText(String.valueOf(networkApi.hashCode()));
+        textView.setText(String.valueOf("Object Reference id:"+networkApi.hashCode()));
 
 
     }

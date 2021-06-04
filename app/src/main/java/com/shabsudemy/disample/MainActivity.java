@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         boolean injected = networkApi == null ? false : true;
         TextView userAvailable = (TextView) findViewById(R.id.injectStatusText);
-        userAvailable.setText("Dependency injection worked\nObject status: " + String.valueOf(injected)+"\nObject referance:"+networkApi.hashCode());
+        userAvailable.setText("Dependency injection status\nObject status: " + String.valueOf(injected)+"\nObject referance:"+networkApi.hashCode());
     }
 }

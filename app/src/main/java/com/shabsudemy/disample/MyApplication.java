@@ -20,9 +20,9 @@ public class MyApplication extends Application {
                 .build();
     }
 
-    public static MyApplication getInstance() {
-        return instance;
-    }
+//    public static MyApplication getInstance() {
+//        return instance;
+//    }
 
     public static MyApplicationComponent getAppComponent() {
         return myApplicationComponent;
